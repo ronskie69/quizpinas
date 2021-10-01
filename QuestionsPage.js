@@ -5,8 +5,7 @@ import {
     applause, 
     finalAnswer 
  } from './sounds.js'
-//styles
-import './styles/questions.css'
+
 function QuestionsPage({ bgSound, onFinishQuiz, questions }) {
 
     const [ currentQuestion, setCurrentQuestion ] = useState(0)
