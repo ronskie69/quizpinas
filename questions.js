@@ -165,26 +165,26 @@ export const medium = [
     },
     {
         questionID: 3,
-        question: 'Where is the tallest Jose Rizal monument located?',
+        question: 'Where was the Tinikling folk dance originated?',
         answers: [
             {
-                answer: 'Rizal Park, Manila',
+                answer: 'Batangas',
                 isCorrect: false,
             },
             {
-                answer: 'Madrid, Spain',
+                answer: 'Benguet',
                 isCorrect: false,
             },
             {
-                answer: 'Calamba, Laguna',
+                answer: 'Leyte',
                 isCorrect: true,
             },
             {
-                answer: 'Chicago, USA',
+                answer: 'Ilocos Norte',
                 isCorrect: false,
             }
         ],
-        explanation: "Tallest Rizal Monument was located in Brgy. Real, Calamba City, Laguna."
+        explanation: "Tinikling folk dance originated in the province of Leyte."
     },
     {
         questionID: 4,
@@ -563,11 +563,11 @@ export const hard = [
         question: 'When was the Bataan Death March?',
         answers: [
             {
-                answer: 'October 6, 1940',
+                answer: 'March 28, 1940',
                 isCorrect: false,
             },
             {
-                answer: 'June 8, 1941',
+                answer: 'December 4, 1941',
                 isCorrect: false,
             },
             {
@@ -865,7 +865,7 @@ export const insane = [
         question: 'Pen name of Antonio Luna.',
         answers: [
             {
-                answer: 'Tabing-ilog',
+                answer: 'Tabing-Ilog',
                 isCorrect: true,
             },
             {
@@ -954,26 +954,26 @@ export const insane = [
     },
     {
         questionID: 12,
-        question: 'Who is the main character in El Filibusterismo?',
+        question: 'Who caught the Ibong Adarna?',
         answers: [
             {
-                answer: 'Isagani',
+                answer: 'Don Diego',
                 isCorrect: false,
             },
             {
-                answer: 'Kabesang Tales',
+                answer: 'Don Pedro',
                 isCorrect: false,
             },
             {
-                answer: 'Kapitan Tiago',
+                answer: 'Don Cantoni',
                 isCorrect: false,
             },
             {
-                answer: 'Crisostomo Ibarra',
+                answer: 'Don Juan',
                 isCorrect: true,
             }
         ],
-        explanation: 'Crisostomo Ibarra was the main character in El Filibusterismo.'
+        explanation: 'Don Juan caught the Ibong Adarna and helped his brothers who turned to stones to be human again.'
     },
     {
         questionID: 13,
@@ -1000,26 +1000,26 @@ export const insane = [
     },
     {
         questionID: 14,
-        question: 'Who is the singer of Laki sa Layaw song?',
+        question: 'Who was the first Filipino to compete in Olympics?',
         answers: [
             {
-                answer: 'Ely Buendia',
+                answer: 'Hidilyn Diaz',
                 isCorrect: false,
             },
             {
-                answer: 'Chito Miranda',
+                answer: 'Onyok Velasco',
                 isCorrect: false,
             },
             {
-                answer: 'Gloc-9',
+                answer: 'Ron Nagonus',
                 isCorrect: false,
             },
             {
-                answer: 'Mike Hanopol',
+                answer: 'David Nepomuceno',
                 isCorrect: true,
             }
         ],
-        explanation: 'Mike Hanopol is the singer of Laki sa Layaw song.'
+        explanation: 'David Nepomuceno was the first Filipino to compete in 1924 Summer Olympics in Track and Field sport.'
     },
     {
         questionID: 15,
@@ -1042,30 +1042,30 @@ export const insane = [
                 isCorrect: false,
             }
         ],
-        explanation: 'The Philippine Independence day proclaimed in Cavite.'
+        explanation: 'The Philippine Independence day was proclaimed in Cavite.'
     },
     {
         questionID: 16,
-        question: 'What is the oldest university in the Philippines?',
+        question: 'Which of the following was the first capital of the Philippines?',
         answers: [
             {
-                answer: 'UP',
+                answer: 'Calamba',
                 isCorrect: false,
             },
             {
-                answer: 'ADMU',
+                answer: 'Davao City',
                 isCorrect: false,
             },
             {
-                answer: 'DLSU',
+                answer: 'Manila',
                 isCorrect: false,
             },
             {
-                answer: 'UST',
+                answer: 'Cebu City',
                 isCorrect: true,
             }
         ],
-        explanation: 'University of Santo Tomas was the oldest university in the Philippines and Asia established in 1611.'
+        explanation: 'Cebu City was the first capital and the oldest city in the Philippines.'
     },
     {
         questionID: 17,
@@ -1088,7 +1088,7 @@ export const insane = [
                 isCorrect: false,
             }
         ],
-        explanation: 'Martial law of President Marcos  lasts for 14 years.'
+        explanation: 'Martial law of President Marcos lasted for 14 years.'
     },
     {
         questionID: 18,
@@ -1115,26 +1115,26 @@ export const insane = [
     },
     {
         questionID: 19,
-        question: "Deadliest typhoon in the Philippines.",
+        question: "Which of the following is the largest city in the Philippines?",
         answers: [
             {
-                answer: 'Rolly',
+                answer: 'Davao City',
                 isCorrect: false,
             },
             {
-                answer: 'Ulysses',
+                answer: 'Caloocan City',
                 isCorrect: false,
             },
             {
-                answer: 'Yolanda',
+                answer: 'Quezon City',
                 isCorrect: true,
             },
             {
-                answer: 'Ondoy',
+                answer: 'Manila',
                 isCorrect: false,
             }
         ],
-        explanation: 'Typhoon Yolanda was the deadliest typhoon that killed more than 6,300 people in 2013.'
+        explanation: 'Quezon City is the largest city in the Philippines.'
     },
     {
         questionID: 20,
@@ -1149,7 +1149,7 @@ export const insane = [
                 isCorrect: false,
             },
             {
-                answer: 'Mount Hibok-hibok',
+                answer: 'Mount Hibok-Hibok',
                 isCorrect: false,
             },
             {

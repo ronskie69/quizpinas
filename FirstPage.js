@@ -4,7 +4,7 @@ function FirstPage({ questionType, easy, medium, hard, insane }) {
     return (
         <div className= "card card-first-page">
             <h2>QuizPinas</h2>
-            <strong>Sharpen your mind and learn the Philippine History with this app!</strong>
+            <strong>Learn the Philippine History with this simple app!</strong>
             <div className="scores">
                 <p>All Your Scores:</p>
                 <div>Easy: <strong>{easy ? easy: 0} / 5</strong></div>
