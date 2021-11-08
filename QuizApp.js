@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { FacebookShareButton, FacebookIcon, TwitterIcon  } from 'react-share'
 import useLocalStorage from './localstorage'
 //components
@@ -9,8 +9,12 @@ import { easy, medium, hard, insane } from './questions'
 import {  
     easyBgSound, 
     mediumBgSound, 
-    hardBgSound, 
+    hardBgSound,
+    themeSong, 
     insaneBgSound } from './sounds.js'
+
+//styles
+import './styles/main.css'
 
 function QuizApp() {
 
@@ -20,6 +24,7 @@ function QuizApp() {
     const [ scores, setScores ] = useState(useLocalStorage());
     const [ corrects, setCorrects ] =useState(0)
     const [ bgSound, setBgSound ] = useState(null)
+    const themeMusic = useRef(new Audio(themeSong.url));
 
     const shuffleQuestions = questions => {
         for(let i= questions.length - 1; i > 0; i--){
@@ -79,17 +84,20 @@ function QuizApp() {
         if(questionType === "medium"){
             setQuestions(shuffleQuestions(medium))
             setBgSound(mediumBgSound.url)
+            themeMusic.current.pause();
             setPage(2)
         }
 
         if(questionType === "hard"){
             setQuestions(shuffleQuestions(hard))
             setBgSound(hardBgSound.url)
+            themeMusic.current.pause();
             setPage(2)
         }
         if(questionType === "insane"){
             setQuestions(shuffleQuestions(insane))
             setBgSound(insaneBgSound.url)
+            themeMusic.current.pause();
             setPage(2)
         }
        
@@ -97,7 +105,13 @@ function QuizApp() {
 
     useEffect(() => {
        localStorage.setItem("scores", JSON.stringify(scores))
-    }, [scores])
+    }, [scores]);
+
+    useEffect(() => {
+        themeMusic.current.load();
+        themeMusic.current.loop = true;
+        setTimeout(() => themeMusic.current.play(), 200);
+    }, [0])
 
     return (
         <div className ="container">

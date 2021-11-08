@@ -20,9 +20,13 @@ export const hardBgSound = {
 }
 
 export const insaneBgSound = {
-    url: 'https://github.com/ronskie69/music/blob/main/insane%20(mp3cut.net).wav?raw=true',
+    url: 'https://github.com/ronskie69/music/blob/main/BleachOST3EscalonMusic.mp3?raw=true',
 }
 
 export const finalAnswer = {
     url: 'https://github.com/ronskie69/music/blob/main/final_answer%20(mp3cut.net).wav?raw=true',
+}
+
+export const themeSong = {
+    url: 'https://github.com/ronskie69/music/blob/main/Orange%20&%20Lemons%20-%20Pinoy%20Ako.mp3?raw=true'
 }
