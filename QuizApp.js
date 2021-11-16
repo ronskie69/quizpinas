@@ -35,6 +35,7 @@ function QuizApp() {
     }
 
     const onSetQuestionType= useCallback((type) => {
+        themeMusic.current.pause(); // pause the music
         if(questions.length > 0) {
             setQuestions([])
             //setPage(1)
@@ -84,20 +85,17 @@ function QuizApp() {
         if(questionType === "medium"){
             setQuestions(shuffleQuestions(medium))
             setBgSound(mediumBgSound.url)
-            themeMusic.current.pause();
             setPage(2)
         }
 
         if(questionType === "hard"){
             setQuestions(shuffleQuestions(hard))
             setBgSound(hardBgSound.url)
-            themeMusic.current.pause();
             setPage(2)
         }
         if(questionType === "insane"){
             setQuestions(shuffleQuestions(insane))
             setBgSound(insaneBgSound.url)
-            themeMusic.current.pause();
             setPage(2)
         }
        

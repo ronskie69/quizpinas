@@ -27,7 +27,7 @@ export const easy = [
         question: 'Which place was Dr. Jose Rizal assassinated?',
         answers: [
             {
-                answer: 'Payatas',
+                answer: 'Cubao',
                 isCorrect: false,
             },
             {
@@ -35,7 +35,7 @@ export const easy = [
                 isCorrect: true,
             },
             {
-                answer: 'Calatagan',
+                answer: 'Payatas',
                 isCorrect: false,
             },
             {
@@ -352,26 +352,26 @@ export const medium = [
 export const hard = [
     {
         questionID: 1,
-        question: "What is the Philippines' most populated city?",
+        question: "Where was Rizal exiled?",
         answers: [
             {
-                answer: 'Quezon City',
+                answer: 'Corregidor Island',
+                isCorrect: false,
+            },
+            {
+                answer: 'Dapitan Island',
                 isCorrect: true,
             },
             {
-                answer: 'Pasay City',
+                answer: 'Babuyan Island',
                 isCorrect: false,
             },
             {
-                answer: 'Dasmarinas City',
-                isCorrect: false,
-            },
-            {
-                answer: 'Calamba City',
+                answer: 'Boracay Island',
                 isCorrect: false,
             }
         ],
-        explanation: "Philippines' most populated city is the Quezon City with 2.16m people followed by Manila at 1.67m and Caloocan City at 1.23m."
+        explanation: "Dr. Jose Rizal was exiled to Dapitan, on the island of Mindanap on July 17, 1892"
     },
     {
         questionID: 2,
@@ -606,26 +606,26 @@ export const hard = [
     },
     {
         questionID: 12,
-        question: 'When was Benigno Aquino Jr. assassinated?',
+        question: 'Where is The Memorial Cross located?',
         answers: [
             {
-                answer: 'August 21, 1983',
+                answer: 'Pilar, Bataan',
                 isCorrect: true,
             },
             {
-                answer: 'April 6, 1983',
+                answer: 'Compostela Valley',
                 isCorrect: false,
             },
             {
-                answer: 'May 30, 1984',
+                answer: 'Capas, Tarlac',
                 isCorrect: false,
             },
             {
-                answer: 'August 30, 1984',
+                answer: 'Laoag, Ilocos Norte',
                 isCorrect: false,
             }
         ],
-        explanation: "Benigno Aquino Jr. was assassinated on August 21, 1983 at the airport."
+        explanation: "The Memorial Cross is located at the highest point of Mount Samat in Pilar, Bataan."
     },
     {
         questionID: 13,
@@ -808,7 +808,7 @@ export const insane = [
                 isCorrect: false,
             },
             {
-                answer: 'MNLF',
+                answer: 'MILF',
                 isCorrect: false,
             }
         ],
@@ -862,7 +862,7 @@ export const insane = [
     },
     {
         questionID: 8,
-        question: 'Pen name of Antonio Luna.',
+        question: '___ is the pen name of Antonio Luna.',
         answers: [
             {
                 answer: 'Tabing-Ilog',
@@ -897,14 +897,14 @@ export const insane = [
             },
             {
                 answer: 'Leonor Rivera',
-                isCorrect: true,
+                isCorrect: false,
             },
             {
-                answer: 'Gertrude Beckett',
-                isCorrect: false,
+                answer: 'Segunda Katigbak',
+                isCorrect: true,
             }
         ],
-        explanation: 'Leonor Rivera was the childhood sweetheart of Dr. Jose Rizal.'
+        explanation: 'Segunda Katigbak was the childhood sweetheart of Dr. Jose Rizal.'
     },
     {
         questionID: 10,
@@ -1026,11 +1026,11 @@ export const insane = [
         question: 'Where did the Philippine Independence day proclaimed?',
         answers: [
             {
-                answer: 'Cavite',
+                answer: 'Kawit, Cavite',
                 isCorrect: true,
             },
             {
-                answer: 'Batangas',
+                answer: 'Malvar, Batangas',
                 isCorrect: false,
             },
             {
@@ -1038,7 +1038,7 @@ export const insane = [
                 isCorrect: false,
             },
             {
-                answer: 'Calamba',
+                answer: 'Barandal, Calamba',
                 isCorrect: false,
             }
         ],
@@ -1046,7 +1046,7 @@ export const insane = [
     },
     {
         questionID: 16,
-        question: 'Which of the following was the first capital of the Philippines?',
+        question: 'Which of the following was the oldest city of the Philippines?',
         answers: [
             {
                 answer: 'Calamba',
