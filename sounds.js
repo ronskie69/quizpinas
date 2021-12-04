@@ -16,11 +16,11 @@ export const mediumBgSound = {
 }
 
 export const hardBgSound = {
-    url: 'https://github.com/ronskie69/music/blob/main/Who%20Wants%20To%20Be%20A%20Millionaire_%20Phone%20A%20Friend%20Clock%20(2011-%D0%BD.%D0%B4).mp3?raw=true',
+    url: "https://github.com/ronskie69/music/blob/main/Slam%20Dunk%20Unreleased%20OST%20(103)%20-%20Fujima%20Kenji%20(Shoyo's%20Ace).mp3?raw=true",
 }
 
 export const insaneBgSound = {
-    url: 'https://github.com/ronskie69/music/blob/main/BleachOST3EscalonMusic.mp3?raw=true',
+    url: "https://github.com/ronskie69/music/blob/main/Slam%20Dunk%20OST%20-%20Tip%20Off!.mp3?raw=true",
 }
 
 export const finalAnswer = {
